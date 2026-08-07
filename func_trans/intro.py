@@ -2,7 +2,10 @@ from collections.abc import Callable
 
 
 def get_logger(formatter: Callable[[str, str], str]) -> Callable[[str, str], None]:
-    pass
+    def logger(first, second):
+        print(formatter(first, second))
+
+    return logger
 
 
 # Don't edit below this line
