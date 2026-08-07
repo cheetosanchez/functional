@@ -1,4 +1,4 @@
-from zipmapping import zipmap
+from recursion.zipmapping import zipmap
 
 MovieRatings = dict[str, float]
 TestCase = tuple[list[str], list[float], MovieRatings]

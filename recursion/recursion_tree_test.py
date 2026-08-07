@@ -1,4 +1,4 @@
-from recursion_tree import list_files
+from recursion.recursion_tree import list_files
 
 FileTree = dict[str, dict | None]
 TestCase = tuple[FileTree, list[str]]

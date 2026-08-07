@@ -1,4 +1,4 @@
-from nested_sums import sum_nested_list
+from recursion.nested_sums import sum_nested_list
 
 NestedList = list[int | list]
 TestCase = tuple[NestedList, int]

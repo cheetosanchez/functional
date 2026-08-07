@@ -1,4 +1,4 @@
-from zipper import pair_document_with_format
+from recursion.zipper import pair_document_with_format
 
 Unpaired = tuple[list[str], list[str]]
 Paired = list[tuple[str, str]]
