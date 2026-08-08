@@ -1,7 +1,6 @@
 from currying_p2 import create_markdown_image
 
-TestCase = tuple[str, str, str | None, str]
-
+TestCase = tuple[str, str, str | None, str
 run_cases: list[TestCase] = [
     (
         "seal",
